@@ -1,0 +1,95 @@
+.header{
+  padding: 25px 0;
+  border-bottom: 2px solid #E6E8EC;
+  &__btn-2{
+  font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    color: #23262F;
+    width: 194px;
+    height: 40px;
+    background: white;
+    border-radius: 90px;
+    text-align: center;
+  }
+
+  &__btn-1{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    color: white;
+    width: 80px;
+    height: 40px;
+    background: #3772FF;
+    border-color: #3772FF;;
+    border-radius: 90px;
+    text-align: center;
+    margin-right: 10px;
+
+
+  }
+
+
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  &__left{
+    display: flex;
+    column-gap: 57px;
+    align-items: center;
+  }
+  &__right{
+    column-gap: 57px;
+    align-items: center;
+
+  }
+  &__text-1{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #23262F;
+  }
+  &__text-2{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777E91;
+  }
+
+  &__search{
+    width: 43px;
+    height: 20px;
+  }
+
+
+  &__btn-1{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+  }
+
+  &__btn-2{
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #23262F;
+  }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,84 @@
+.hot{
+  background: #F4F5F6;
+  height: 789px;
+}
+
+.hotcollections{
+  &__name{
+    padding: 128px 160px;
+    width: 1120px;
+    height: 48px;
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #23262F;
+  }
+  &__card{
+
+    &-list{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 3px 160px;
+      gap:20px;
+
+    }
+  }
+  &__card-mainphoto{
+    width: 370px;
+    height:300px;
+    border-radius: 9px;
+  }
+  &__card-mainphot{
+    width: 300px;
+    height:300px;
+    border-radius: 9px;
+  }
+  &__card-anothph{
+   padding: 3px 6px;
+    width: 125px;
+    height: 95px;
+    border-radius: 9px;
+  }
+  &__card-anothphoto{
+    padding: 3px 6px;
+    width: 100px;
+    height: 90px;
+    border-radius: 9px;
+
+
+  }
+  &__person-text{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #23262F;
+    width: 352px;
+    height: 32px;
+  }
+  &__person-photo{
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+  }
+  &__person-downlist{
+    display: flex;
+    gap: 90px;
+  }
+  &__person-downlist2{
+    display: flex;
+    gap: 50px;
+  }
+
+
+
+
+
+
+
+
+}

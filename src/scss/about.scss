@@ -1,0 +1,110 @@
+.upload{
+  padding: 25px 0;
+  border-bottom: 2px solid #E6E8EC;
+
+
+  &__photo{
+    width: 280px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  &__picture{
+    padding-bottom: 45px;
+  }
+  &__pictures{
+    display: flex;
+    gap: 5px;
+  }
+
+  &__title{
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #23262F;
+    padding-bottom: 16px;
+  }
+
+  &__text{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #777E91;
+    padding-bottom: 15px;
+  }
+
+  &__text2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #777E91;
+    padding-left: 80px;
+  }
+
+  &__header{
+    border-bottom: 2px solid #E6E8EC;
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+    &-up{
+      padding-right: 900px;
+      padding-left: 60px;
+
+    }
+    &-down{
+      padding: 80px 358px;
+      text-align: center;
+    }
+
+    &-btn{
+      font-family: 'DM Sans', sans-serif;
+      font-style: normal;
+      color: #23262F;
+      width: 194px;
+      height: 40px;
+      background: white;
+      border-radius: 90px;
+      text-align: center;
+    }
+
+    &-btn2{
+      font-family: 'DM Sans', sans-serif;
+      font-style: normal;
+      color: white;
+      width: 194px;
+      height: 40px;
+      background: #3772FF;
+      border-color: #3772FF;;
+      border-radius: 90px;
+
+    }
+
+    &-text1{
+      font-family: 'DM Sans',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: #777E91;
+    }
+
+
+  }
+}

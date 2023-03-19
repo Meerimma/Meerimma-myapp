@@ -1,0 +1,75 @@
+.free{
+  height: 800px;
+  padding-top: 136px;
+  padding-left: 160px;
+  border-bottom: 2px solid #E6E8EC;
+
+  &__leftside{
+    width: 545px;
+    height: 400px;
+    padding-top: 160px;
+    &-title{
+      width: 545px;
+      height: 128px;
+      font-family: 'DM Sans',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: -0.02em;
+      color: #23262F;
+    }
+    &-subtitle{
+      font-family: 'Poppins',sans-serif;
+      font-style: normal;
+      color: #777E91;
+    }
+    &-subtitle2{
+      width: 480px;
+      height: 24px;
+      font-family: 'Poppins',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #777E91;
+      padding-top: 10px;
+    }
+
+    &__btn-1{
+      font-family: 'DM Sans', sans-serif;
+      font-style: normal;
+      color: white;
+      background: #3772FF;
+      border-color: #3772FF;;
+      border-radius: 90px;
+      text-align: center;
+      width: 119px;
+      height: 48px;
+      margin-right: 15px;
+      margin-top: 56px;
+    }
+    &__btn-2{
+      font-family: 'DM Sans', sans-serif;
+      font-style: normal;
+      color: #23262F;
+      background: white;
+      border-radius: 90px;
+      text-align: center;
+      width: 145px;
+      height: 48px;
+    }
+
+  }
+  &__sides{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+
+  }
+
+
+
+}

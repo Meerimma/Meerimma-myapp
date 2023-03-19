@@ -1,0 +1,65 @@
+.discover{
+  height: 1605px;
+  padding-top: 136px;
+  padding-left: 160px;
+  border-bottom: 2px solid #E6E8EC;
+  &__title{
+    width: 1120px;
+    height: 48px;
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #23262F;
+  }
+&__cover{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
+  padding-top: 95px;
+  padding-bottom: 120px;
+}
+&__lists{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding-left: 16px;
+  padding-right: 255px;
+}
+  &__list{
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #777E91;
+  }
+
+  &__card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 20px;
+    padding-bottom: 64px;
+  }
+
+  &__button{
+    width:100px;
+    height: 30px;
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    color: #23262F;
+    border-radius: 10px;
+    border-color: #777E91;
+  }
+
+
+
+
+
+
+}

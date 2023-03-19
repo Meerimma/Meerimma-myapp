@@ -1,0 +1,50 @@
+.sellers{
+  background: #F4F5F6;
+  height: 663px;
+  padding: 128px 160px;
+
+  &__title{
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #23262F;
+  }
+  &__subtitle{
+    width: 221px;
+    height: 32px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #777E91;
+  }
+
+  &__card{
+    width: 198.4px;
+    height: 247px;
+    background: white;
+    border-radius: 20px;
+    &-row{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      padding-top: 64px;
+    }
+
+    &-top{
+      padding: 25px 20px;
+    }
+    &-bottom{
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+
+  }
+
+
+}
